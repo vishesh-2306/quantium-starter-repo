@@ -1,0 +1,49 @@
+/* Background styling */
+body {
+    background: linear-gradient(135deg, #e8f2ff, #fafcff);
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container styling */
+#react-entry-point {
+    padding: 30px;
+}
+
+/* Header styling */
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #2a2e35;
+    margin-bottom: 25px;
+}
+
+/* Radio items styling */
+.RegionFilter {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 30px;
+    padding: 12px;
+}
+
+.RegionFilter label {
+    font-size: 16px;
+    color: #2a2e35;
+    font-weight: 600;
+}
+
+input[type="radio"] {
+    margin-right: 6px;
+}
+
+/* Graph container styling */
+#sales-line-chart {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.1);
+    border: 1px solid #d7e3fc;
+}
